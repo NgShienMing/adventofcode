@@ -1,7 +1,7 @@
 valid_num_str = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
 puzzle = []
-with open('part_2.txt') as f:
+with open('run/day_1/part_2.txt') as f:
     puzzle = f.read().splitlines()
 
 numbers = []

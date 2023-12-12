@@ -1,5 +1,5 @@
 puzzle = []
-with open('part_1.txt') as f:
+with open('run/day_1/part_1.txt') as f:
     puzzle = f.read().splitlines()
 
 numbers = []
