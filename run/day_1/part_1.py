@@ -1,9 +1,9 @@
-puzzle = []
-with open('run/day_1/part_1.txt') as f:
-    puzzle = f.read().splitlines()
+from app.utils.file import read_file
+puzzles = read_file('run/day_1/input.txt')
+
 
 numbers = []
-for text in puzzle:
+for text in puzzles:
     curr_num_list = []
     num = ''
     for char in text:
