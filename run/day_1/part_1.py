@@ -1,5 +1,5 @@
-from app.utils.file import read_file
-puzzles = read_file('run/day_1/input.txt')
+from app.utils.file import read_file_as_lines
+puzzles = read_file_as_lines('run/day_1/input.txt')
 
 
 numbers = []

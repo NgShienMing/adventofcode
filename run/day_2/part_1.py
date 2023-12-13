@@ -1,6 +1,6 @@
-from app.utils.file import read_file
+from app.utils.file import read_file_as_lines
 
-puzzles = read_file('run/day_2/input.txt')
+puzzles = read_file_as_lines('run/day_2/input.txt')
 max_cubes = {
     'red': 12,
     'green': 13,
